@@ -12,3 +12,11 @@ h1 {
     font-weight: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+body{
+  background-image: url('mm.jpg');
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  }
+  
