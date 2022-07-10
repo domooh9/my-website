@@ -249,6 +249,13 @@
   });
 
 })()
-const header= document.querySelector("header")
-header.style.color = 'blue';
-console.log(header)
+
+let newStyle = document.querySelector('#dom')
+function changeStyle(change){
+newStyle.innerText =  change.toUpperCase()
+newStyle.style.color = 'green'
+newStyle.style.background = 'white'
+newStyle.style.font = "New times roman"
+
+}
+changeStyle('domnic')

@@ -61,8 +61,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #212431;
   overflow-y: auto;
+  
 }
 #header .profile img {
   margin: 15px auto;
@@ -78,10 +79,12 @@ h1, h2, h3, h4, h5, h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
+  
 }
 #header .profile .social-links a {
   font-size: 18px;
@@ -397,6 +400,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
+ 
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
@@ -942,4 +946,62 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+h1 {
+  text-align: center;
+}
+.social-media{
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;  
+  gap: 15px;
+  grid-auto-flow: column;
+
+}
+.social-media .handle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.social-media div .fa {
+  color: #000;
+  font-size: 30px;
+  line-height: 60px;
+  transition: 0.5s;
+}
+
+.social-media div .fa-facebook:hover {
+  color: #3b5998;
+
+}
+.social-media div .fa-twitter:hover {
+  color: #55acee;
+
+}
+.social-media div .fa-instagram:hover {
+  color: #e4405f;
+
+}
+.social-media div .fa-youtube-play:hover {
+  color: #cd201f;
+}
+.social-media div .fa-linkedin:hover {
+  color: #0077b5;
+
+}
+.social-media div .fa-meetup:hover {
+  color: #e51937;
+
 }
