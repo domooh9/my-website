@@ -194,6 +194,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background color : purple;
   background-size: cover;
+ background: url(rrt.jpg) no-repeat;
+background-size: cover;
+height: calc(110vh - 85px);
 }
 #hero:before {
   content: "";
@@ -238,6 +241,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    color: black;
   }
   #hero h2 {
     font-size: 18px;
