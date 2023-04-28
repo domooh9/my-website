@@ -950,12 +950,12 @@ section {
 }
 .btn-outline-primary {
   color: #2eafec;
-  border-color: #2eafec;
+  border-color: #122f57;
 }
 .btn-outline-primary:hover {
   color: #fff;
   background-color: #2eafec;
-  border-color: #2eafec;
+  border-color: #122f57;
 }
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
