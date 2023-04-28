@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
+#bt{
+  background-color: inherit;
+  border: none;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -943,4 +947,22 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+.btn-outline-primary {
+  color: #2eafec;
+  border-color: #2eafec;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #2eafec;
+  border-color: #2eafec;
+}
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.25rem rgba(46, 175, 236, 0.5);
+}
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #2eafec;
+  background-color: transparent;
 }
