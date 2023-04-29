@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 #bt{
-  background-color: inherit;
+  background: #040b14;
   border: none;
 }
 
@@ -965,4 +965,8 @@ section {
 .btn-outline-primary:disabled {
   color: #2eafec;
   background-color: transparent;
+}
+#card-text{
+  font-family: 'Nunito Sans';
+  font-size: 19px;
 }
